@@ -386,11 +386,11 @@ public static void OpenCartShippingandTaxes() throws InterruptedException, IOExc
     Thread.sleep(1000);
     //Delivery method comments
     driver.findElement(By.xpath("//textarea[@name='comment']")).sendKeys("Its Shipping and taxes Checkout");
-    Thread.sleep(1000);
+    Thread.sleep(4000);
     //terms and conditions
    // ActionClass.click(driver,OpenCartBillingContinueBtnForGuestCheckoutTermsConditions);
     driver.findElement(By.xpath("//input[@class='btn btn-primary'and @ id ='button-shipping-method']")).click();
-    Thread.sleep(3000);
+    Thread.sleep(4000);
     //payment continue
 	//ActionClass.click(driver,OpenCartBillingContinueBtnForGuestLast);
     //term and condition  check  box in payment

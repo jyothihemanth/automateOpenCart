@@ -324,6 +324,21 @@ public class HomePage extends BaseClass {
 		System.out.println(fileuploaderrormsg);
 	}
 	
+	public static void OpencartverifyfileuploadWishList() throws InterruptedException
+	{
+		driver.findElement(By.xpath("//*[@id=\"menu\"]/div[2]/ul/li[3]/a")).click();
+		driver.findElement(By.xpath("//*[@id=\"menu\"]/div[2]/ul/li[3]/div/div/ul/li[2]/a")).click();
+		driver.findElement(By.xpath("//*[@id='input-sort']")).click();
+		driver.findElement(By.xpath("  //*[@id=\"input-sort\"]/option[5]")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//*[@id=\"content\"]/div[3]/div[1]/div/div[2]/div[2]/button[2]/i ")).click();
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("//*[@id=\"wishlist-total\"]/span")).click();
+		driver.findElement(By.xpath("//*[@id=\"content\"]/div[1]/table/tbody/tr[1]/td[6]/button")).click();
+		
+		//*[@id="content"]/div[3]/div[2]/div/div[2]/div[1]/h4/a
+		
+	}
 	
 	
 	

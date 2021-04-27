@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-26T19:33:11 IST" name="Default suite" finished-at="2021-04-26T19:33:56 IST" duration-ms="44362">
+  <suite started-at="2021-04-27T15:00:48 IST" name="Default suite" finished-at="2021-04-27T15:02:14 IST" duration-ms="86219">
     <groups>
     </groups>
-    <test started-at="2021-04-26T19:33:11 IST" name="Default test" finished-at="2021-04-26T19:33:56 IST" duration-ms="44362">
-      <class name="com.application.testcases.TC12_OpenCart_Apply_Coupon">
-        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.application.testcases.TC12_OpenCart_Apply_Coupon@545b995e]" started-at="2021-04-26T19:33:11 IST" name="setExtent" finished-at="2021-04-26T19:33:11 IST" duration-ms="306" status="PASS">
+    <test started-at="2021-04-27T15:00:48 IST" name="Default test" finished-at="2021-04-27T15:02:14 IST" duration-ms="86219">
+      <class name="com.application.testcases.TC10_OpenCart_SearchandAdd_Iphone">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.application.testcases.TC10_OpenCart_SearchandAdd_Iphone@545b995e]" started-at="2021-04-27T15:00:48 IST" name="setExtent" finished-at="2021-04-27T15:00:48 IST" duration-ms="272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.application.testcases.TC12_OpenCart_Apply_Coupon@545b995e]" started-at="2021-04-26T19:33:12 IST" name="loadConfig" finished-at="2021-04-26T19:33:12 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.application.testcases.TC10_OpenCart_SearchandAdd_Iphone@545b995e]" started-at="2021-04-27T15:00:48 IST" name="loadConfig" finished-at="2021-04-27T15:00:48 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.application.testcases.TC12_OpenCart_Apply_Coupon@545b995e]" started-at="2021-04-26T19:33:12 IST" name="setup" finished-at="2021-04-26T19:33:23 IST" duration-ms="11246" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.application.testcases.TC10_OpenCart_SearchandAdd_Iphone@545b995e]" started-at="2021-04-27T15:00:48 IST" name="setup" finished-at="2021-04-27T15:01:06 IST" duration-ms="17506" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Login()[pri:-1, instance:com.application.testcases.TC12_OpenCart_Apply_Coupon@545b995e]" started-at="2021-04-26T19:33:23 IST" name="Login" finished-at="2021-04-26T19:33:54 IST" duration-ms="31574" status="PASS">
+        <test-method signature="Login()[pri:-1, instance:com.application.testcases.TC10_OpenCart_SearchandAdd_Iphone@545b995e]" started-at="2021-04-27T15:01:06 IST" name="Login" finished-at="2021-04-27T15:02:14 IST" duration-ms="67810" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.application.testcases.TC12_OpenCart_Apply_Coupon@545b995e]" started-at="2021-04-26T19:33:54 IST" name="tearDown" finished-at="2021-04-26T19:33:56 IST" duration-ms="1445" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.application.testcases.TC10_OpenCart_SearchandAdd_Iphone@545b995e]" started-at="2021-04-27T15:02:14 IST" name="tearDown" finished-at="2021-04-27T15:02:14 IST" duration-ms="838" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:com.application.testcases.TC12_OpenCart_Apply_Coupon@545b995e]" started-at="2021-04-26T19:33:56 IST" name="endReport" finished-at="2021-04-26T19:33:57 IST" duration-ms="927" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.application.testcases.TC10_OpenCart_SearchandAdd_Iphone@545b995e]" started-at="2021-04-27T15:02:14 IST" name="endReport" finished-at="2021-04-27T15:02:15 IST" duration-ms="842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-      </class> <!-- com.application.testcases.TC12_OpenCart_Apply_Coupon -->
+      </class> <!-- com.application.testcases.TC10_OpenCart_SearchandAdd_Iphone -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

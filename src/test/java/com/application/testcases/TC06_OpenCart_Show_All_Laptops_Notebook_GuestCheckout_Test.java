@@ -61,7 +61,7 @@ public class TC06_OpenCart_Show_All_Laptops_Notebook_GuestCheckout_Test extends 
 	@AfterMethod
 	public void tearDown() 
 	{
-//		driver.quit();
+	driver.quit();
 	}
 	@Test (priority = -1, enabled = true) 
 	public void Login() throws Exception 

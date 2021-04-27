@@ -3,7 +3,47 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.application.testcases.TC07_OpenCart_Show_All_laptops_Notebook_Register_Checkout_Test">
+      <class name="com.application.testcases.TC09_OpenCart_FileUpload_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setExtent"/>
+          <include name="loadConfig"/>
+          <include name="endReport"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- com.application.testcases.TC09_OpenCart_FileUpload_Test -->
+      <class name="com.application.testcases.TC06_OpenCart_Show_All_Laptops_Notebook_GuestCheckout_Test">
+        <methods>
+          <include name="setExtent"/>
+          <include name="loadConfig"/>
+          <include name="endReport"/>
+          <include name="tearDown"/>
+          <include name="Login"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.application.testcases.TC06_OpenCart_Show_All_Laptops_Notebook_GuestCheckout_Test -->
+      <class name="com.application.testcases.TC08_OpenCart_EditAccount">
+        <methods>
+          <include name="setExtent"/>
+          <include name="loadConfig"/>
+          <include name="Login"/>
+          <include name="endReport"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.application.testcases.TC08_OpenCart_EditAccount -->
+      <class name="com.application.testcases.TC13_OpenCart_Warning_CouponCode">
+        <methods>
+          <include name="setup"/>
+          <include name="Login"/>
+          <include name="setExtent"/>
+          <include name="loadConfig"/>
+          <include name="tearDown"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com.application.testcases.TC13_OpenCart_Warning_CouponCode -->
+      <class name="com.application.testcases.TC03_OpenCart_Login_Test">
         <methods>
           <include name="setExtent"/>
           <include name="tearDown"/>
@@ -12,7 +52,107 @@
           <include name="setup"/>
           <include name="endReport"/>
         </methods>
+      </class> <!-- com.application.testcases.TC03_OpenCart_Login_Test -->
+      <class name="com.application.testcases.TC05_OpeCart_Add_Product_Cart_Test">
+        <methods>
+          <include name="Login"/>
+          <include name="setExtent"/>
+          <include name="setup"/>
+          <include name="loadConfig"/>
+          <include name="tearDown"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com.application.testcases.TC05_OpeCart_Add_Product_Cart_Test -->
+      <class name="com.application.testcases.TC16_Opencart_Product_return_Test">
+        <methods>
+          <include name="setExtent"/>
+          <include name="loadConfig"/>
+          <include name="endReport"/>
+          <include name="Login"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.application.testcases.TC16_Opencart_Product_return_Test -->
+      <class name="com.application.testcases.TC11_Opencart_Remove_Prod_frmCart_Test">
+        <methods>
+          <include name="setExtent"/>
+          <include name="setup"/>
+          <include name="loadConfig"/>
+          <include name="endReport"/>
+          <include name="tearDown"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- com.application.testcases.TC11_Opencart_Remove_Prod_frmCart_Test -->
+      <class name="com.application.testcases.TC14_OpenCart_Estimate_Shipping_taxes_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Login"/>
+          <include name="setExtent"/>
+          <include name="loadConfig"/>
+          <include name="endReport"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.application.testcases.TC14_OpenCart_Estimate_Shipping_taxes_Test -->
+      <class name="com.application.testcases.TC15_Opencart_WishList_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setExtent"/>
+          <include name="loadConfig"/>
+          <include name="endReport"/>
+          <include name="setup"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- com.application.testcases.TC15_Opencart_WishList_Test -->
+      <class name="com.application.testcases.TC04_VerifyTitle_Test">
+        <methods>
+          <include name="setup"/>
+          <include name="setExtent"/>
+          <include name="tearDown"/>
+          <include name="loadConfig"/>
+          <include name="Login"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com.application.testcases.TC04_VerifyTitle_Test -->
+      <class name="com.application.testcases.TC07_OpenCart_Show_All_laptops_Notebook_Register_Checkout_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setExtent"/>
+          <include name="Login"/>
+          <include name="loadConfig"/>
+          <include name="setup"/>
+          <include name="endReport"/>
+        </methods>
       </class> <!-- com.application.testcases.TC07_OpenCart_Show_All_laptops_Notebook_Register_Checkout_Test -->
+      <class name="com.application.testcases.TC12_OpenCart_Apply_Coupon">
+        <methods>
+          <include name="Login"/>
+          <include name="setup"/>
+          <include name="setExtent"/>
+          <include name="loadConfig"/>
+          <include name="tearDown"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com.application.testcases.TC12_OpenCart_Apply_Coupon -->
+      <class name="com.application.testcases.TC02_VerifyUserNotAbleToCreateAccount_Test">
+        <methods>
+          <include name="setExtent"/>
+          <include name="loadConfig"/>
+          <include name="Registration_User"/>
+          <include name="endReport"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.application.testcases.TC02_VerifyUserNotAbleToCreateAccount_Test -->
+      <class name="com.application.testcases.TC01_RegisterUser_OpenCart_Test">
+        <methods>
+          <include name="setup"/>
+          <include name="setExtent"/>
+          <include name="loadConfig"/>
+          <include name="tearDown"/>
+          <include name="endReport"/>
+          <include name="Registration_User"/>
+        </methods>
+      </class> <!-- com.application.testcases.TC01_RegisterUser_OpenCart_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

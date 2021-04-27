@@ -61,7 +61,7 @@ public class TC14_OpenCart_Estimate_Shipping_taxes_Test extends BaseClass {
 	@AfterMethod
 	public void tearDown() 
 	{
-		//		driver.quit();
+			driver.quit();
 	}
 	@Test (priority = -1, enabled = true) 
 	public void Login() throws Exception 
@@ -76,15 +76,8 @@ public class TC14_OpenCart_Estimate_Shipping_taxes_Test extends BaseClass {
 		logger.info("user has logged in to openCart website successfully");
 		//Shipping and taxes
 		product.OpenCartShippingandTaxes();
-	
 		
-
-		
-		//product.OpenCartFillBillingMandatoryDetailsRegisterCheckout(prop.getProperty("OpenCartBillingFirstName"),prop.getProperty("OpenCartBillingLastName"),
-		//		prop.getProperty("OpenCartBillingemail"),prop.getProperty("OpenCartBillingphone"),prop.getProperty("OpenCartBillingpassword"),prop.getProperty("OpenCartBillingpassword"),
-		//		prop.getProperty("OpenCartBillingAddress1"),prop.getProperty("OpenCartBillingCity"),prop.getProperty("OpenCartBillingPostcode"));
-		//logger.info("Guest checkout process of openCart completed successfully");
-		//takeScreenshot("Guest checkout process completed successfully");
+		takeScreenshot("Shipping and taxes copy captured successfully");
 
 	}
 

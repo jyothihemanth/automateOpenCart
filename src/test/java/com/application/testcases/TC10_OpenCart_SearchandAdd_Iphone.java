@@ -31,8 +31,8 @@ public class TC10_OpenCart_SearchandAdd_Iphone extends BaseClass {
 	CheckOutPage checkOut;
 
 	@BeforeMethod ()
-	public void setup() { //launching chrome browser and accessing url of lumen
-		launchApp();    //will launch chrome and go to lumen
+	public void setup() { //launching chrome browser and accessing url of open cart
+		launchApp();    //will launch chrome and go to open cart
 		if (index== null) {
 			index= new IndexPage();
 		}
@@ -68,12 +68,12 @@ public class TC10_OpenCart_SearchandAdd_Iphone extends BaseClass {
 		
 		home= login.loginToOpenCart(prop.getProperty("OpenCartUserName") ,  prop.getProperty("OpenCartPassword"));
 		index.verifyLogingopenCartSuccessful();
-		//logger.info("user has logged in to openCart website successfully");
+		logger.info("user has logged in to openCart website successfully");
 
-		//
+		
 		
 		product.OpenCartSerachIphone();
-		//logger.info("Product is not available");
+		logger.info("Product is not available");
 		 takeScreenshot("Iphone not available");
 		
 		

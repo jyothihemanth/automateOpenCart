@@ -57,7 +57,7 @@ public class TC11_Opencart_Remove_Prod_frmCart_Test extends BaseClass {
 
 	@AfterMethod
 	public void tearDown() {
-		//driver.quit();
+		driver.quit();
 	}
 	@Test (priority = -1, enabled = true) 
 	public void Login() throws Exception {

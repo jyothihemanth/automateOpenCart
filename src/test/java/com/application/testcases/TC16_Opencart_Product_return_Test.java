@@ -61,7 +61,7 @@ public class TC16_Opencart_Product_return_Test extends BaseClass {
 	@AfterMethod
 	public void tearDown() 
 	{
-		//		driver.quit();
+			driver.quit();
 	}
 	@Test (priority = -1, enabled = true) 
 	public void Login() throws Exception 

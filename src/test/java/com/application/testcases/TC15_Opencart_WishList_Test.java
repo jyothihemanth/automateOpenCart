@@ -61,7 +61,7 @@ public class TC15_Opencart_WishList_Test extends BaseClass {
 	@AfterMethod
 	public void tearDown() 
 	{
-		//		driver.quit();
+				driver.quit();
 	}
 	@Test (priority = -1, enabled = true) 
 	public void Login() throws Exception 

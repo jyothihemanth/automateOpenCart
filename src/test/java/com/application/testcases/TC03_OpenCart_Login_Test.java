@@ -60,7 +60,7 @@ public class TC03_OpenCart_Login_Test extends BaseClass {
 	
 	@AfterMethod
 	public void tearDown() {
-		//driver.quit();
+		driver.quit();
 	}
 	
 	@Test (priority = -1, enabled = true) 
@@ -72,7 +72,7 @@ public class TC03_OpenCart_Login_Test extends BaseClass {
 		//OpenCart Login Module
 		home= login.loginToOpenCart(prop.getProperty("OpenCartUserName") ,  prop.getProperty("OpenCartPassword"));
 		index.verifyLogingopenCartSuccessful();
-		//logger.info("user has logged in to openCart website successfully");
+		logger.info("user has logged in to openCart website successfully");
 		
 		
 		

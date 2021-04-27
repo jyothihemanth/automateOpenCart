@@ -34,8 +34,8 @@ public class TC04_VerifyTitle_Test extends BaseClass {
 	CheckOutPage checkOut;
 
 	@BeforeMethod ()
-	public void setup() { //launching chrome browser and accessing url of lumen
-		launchApp();    //will launch chrome and go to lumen
+	public void setup() { //launching chrome browser and accessing url of open cart
+		launchApp();    //will launch chrome and go to open cart
 		if (index== null) {
 			index= new IndexPage();
 		}
@@ -60,7 +60,7 @@ public class TC04_VerifyTitle_Test extends BaseClass {
 
 	@AfterMethod
 	public void tearDown() {
-		//driver.quit();
+		driver.quit();
 	}
 
 	@Test (priority = -1, enabled = true) 

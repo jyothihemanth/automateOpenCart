@@ -62,7 +62,7 @@ public class TC02_VerifyUserNotAbleToCreateAccount_Test  extends BaseClass{
 
 	@AfterMethod
 	public void tearDown() {
-//		driver.close();
+	driver.close();
 //		driver.quit();
 	}
 	
@@ -74,7 +74,7 @@ public class TC02_VerifyUserNotAbleToCreateAccount_Test  extends BaseClass{
 		login.OpenCartRegisterPageModule(prop.getProperty("OpenCartRegisterFirstName"),prop.getProperty("OpenCartRegisterLastName"),prop.getProperty("OpenCartRegisterEmail1"),
 				prop.getProperty("OpenCartRegisterTelephone1"),prop.getProperty("OpenCartRegisterPassword"));
 		takeScreenshot("Unsuccessful Registration success");
-		//logger.info("user is not able to register in OpenCart.com");
+		logger.info("user is not able to register in OpenCart.com");
 	}
 }
 

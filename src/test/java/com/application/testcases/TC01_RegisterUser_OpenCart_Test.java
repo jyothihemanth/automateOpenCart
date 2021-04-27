@@ -75,7 +75,7 @@ public class TC01_RegisterUser_OpenCart_Test extends BaseClass  {
 		login.OpenCartRegisterPageModule(prop.getProperty("OpenCartRegisterFirstName"),prop.getProperty("OpenCartRegisterLastName"),prop.getProperty("OpenCartRegisterEmail"),
 				prop.getProperty("OpenCartRegisterTelephone"),prop.getProperty("OpenCartRegisterPassword"));
 		takeScreenshot("Registration success");
-		//logger.info("user has Registred successfully in to openCart website successfully");
+		logger.info("user has Registred successfully in to openCart website successfully");
 	}
 
 }
